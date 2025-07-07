@@ -14,5 +14,14 @@ public class Student1 {
 	//참조형 
 	Subject korean;
 	Subject math;
+	
+	@Override
+	public String toString() {
+		return "Student1 [studentID=" + studentID + ", studentName=" + studentName + ", KoreanName=" + KoreanName
+				+ ", koreanScore=" + koreanScore + ", mathName=" + mathName + ", mathScore=" + mathScore + ", korean="
+				+ korean + ", math=" + math + "]";
+	}
+	
+	
 
 }

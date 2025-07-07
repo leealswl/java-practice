@@ -10,6 +10,10 @@ public class Student1Test {
 		stud1.koreanScore =95;
 		stud1.mathName ="수학";
 		stud1.mathScore=92;
+		
+		stud1.koreanScore =100; //side effect (부작용)
+		
+		System.out.println(stud1.toString());
 
 		//참조형(클래스)
 		Subject kor = new Subject();
@@ -21,7 +25,12 @@ public class Student1Test {
 		
 		stud1.korean =kor;
 		stud1.math = math;
-				
+		
+		//생성자이용1-2
+		Subject korean1 = new Subject("국어",90);
+		stud1.korean =korean1;
+		
+		stud1.math=new Subject("수학",80);
 	}
 
 }
