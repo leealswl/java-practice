@@ -36,17 +36,17 @@ public class ForEx {
 				continue;
 			total +=num;
 		}
-		System.out.println("1부터10까지 홀수합은 " +total);
+		System.out.println("1부터100까지 홀수합은 " +total);
 		
 		int total1 = 0;
 		int num1;
 		
 		for (num1=0; num1<=100; num1++) {
 			if(num1 % 2 ==1)
-				//continue;
+				continue;
 			total1 +=num1;
 		}
-		System.out.println("1부터10까지 짝수합은 " +total1);
+		System.out.println("1부터100까지 짝수합은 " +total1);
 		
 		// 0부터 시작하여 1씩 증가하여 더한 숫자의 합이 100이 이상인 경우 그 수와 합을 출력하세요.
 		// for문 과 while문
