@@ -9,6 +9,7 @@ public class Company {
 	// 클래스 메서드에서 사용할 수 있도록 클래스 멤버변수로 적용.
 	private static Company instance = new Company();
 	
+	//싱글톤으로 사용할 클래스
 	private Company() {}
 	
 	// 외부에서 생성자를 사용할 수 없으므로, 클래스 메서드(인스턴스 생성없이 사용가능)로 선언
